@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+header {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 80px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -25px;
+  left: 43%;
+}
+.nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Italiana", serif;
+  font-size: 20px;
+  list-style-type: none;
+}
+.nav-menu-item {
+  padding: 30px;
+}
+main {
+  display: block;
+  width: 100%;
+}
+.todo {
+  width: 700px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 40px auto;
+}
+.todo-list {
+  margin: 20px;
+  padding-top: 15px;
+}
+.todo-list-item {
+  list-style-type: none;
+  width: 90%;
+  font-family: "Raleway", sans-serif;
+  margin: 7px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #bebebe;
+  border-bottom: 3px solid #eaeaea;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.input-group {
+  padding: 20px;
+  width: 570px;
+}
+.create-new {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 80px;
+  background-color: #eaeaea;
+  border-radius: 0 0 10px 10px;
+}
+.flag {
+  margin-top: 13px;
+  width: 50px;
+  height: 50px;
+}
+.important {
+  display: none;
+}
+
+.clock {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 33px;
+  height: 33px;
+}
+
+.dropdown {
+  visibility: hidden;
+  width: 90px;
+  height: 150px;
+  background-color: #eaeaea;
+  border: 2px solid red;
+  border-radius: 5px;
+  position: relative;
+  top: 60px;
+  left: -21px;
+  overflow: auto;
+}
+.triangle {
+  visibility: hidden;
+  position: relative;
+  top: -20px;
+  left: -8px;
+  border: 5px solid transparent;
+  border-bottom: 5px solid red;
+}
+.choose-time {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.btn-outline-danger {
+  border: 2px solid red;
+}
+#important-text {
+  color: red;
+  font-weight: bold;
+}
+.btn-secondary {
+  background-color: #cacaca;
+  border: #cacaca;
+  height: 35px;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: #498a40;
+  border: #498a40;
+}
+.text-and-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete:hover {
+  background-color: red;
+}
+.complete {
+  text-decoration: line-through;
+}
+.hidden {
+  display: none;
+}
